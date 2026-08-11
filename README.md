@@ -33,7 +33,7 @@
 
 | Project / Proje | Description (EN / TR) | Tech Stack | Links |
 | :--- | :--- | :--- | :---: |
-| 🇹🇷 **COVID-19 Turkey Analytics Hub** | **EN:** Time series analytics, Mann-Whitney U hypothesis testing, Isolation Forest anomaly detection, and XGBoost death forecasting ($R^2 = 0.98$).<br>**TR:** Zaman serisi analitiği, Mann-Whitney U testiyle tam kapanma etki ölçümü, anomali tespiti ve XGBoost vefat kestirim modeli. | `Python` `Streamlit` `XGBoost` `SciPy` | [📂 Repo](https://github.com/cdoruk248-cmyk/covid19-turkey-analytics) <br> [🌐 Live App](https://covid19-turkey-analytics-nco9cy2sjfetgsgwevb5wz.streamlit.app/) |
+| 🇹🇷 **COVID-19 Turkey Analytics Hub** | **EN:** Time series analytics, Mann-Whitney U hypothesis testing, Isolation Forest anomaly detection, and XGBoost death forecasting (R² = 0.98).<br>**TR:** Zaman serisi analitiği, Mann-Whitney U testiyle tam kapanma etki ölçümü, anomali tespiti ve XGBoost vefat kestirim modeli. | `Python` `Streamlit` `XGBoost` `SciPy` | [📂 Repo](https://github.com/cdoruk248-cmyk/covid19-turkey-analytics) <br> [🌐 Live App](https://covid19-turkey-analytics-nco9cy2sjfetgsgwevb5wz.streamlit.app/) |
 | 🤖 **Local AI LinkedIn Profile Analyzer** | **EN:** 100% local LLM-powered LinkedIn profile analyzer offering HR recommendations using Ollama & Qwen 2.5.<br>**TR:** Ollama & Qwen 2.5 altyapısıyla çalışan %100 yerel LinkedIn profil analiz ve İK tavsiye uygulaması. | `Python` `Streamlit` `Ollama` `Qwen` | [📂 Repo](https://github.com/cdoruk248-cmyk/linkedin-bot) |
 | 🏢 **HR Analytics Employee Attrition** | **EN:** End-to-end ML application predicting employee churn risks and identifying key organizational turnover drivers.<br>**TR:** Şirket içi çalışan ayrılma (attrition) risklerini tahmin eden ve kök nedenleri analiz eden uçtan uca ML projesi. | `Python` `Scikit-Learn` `XGBoost` | [📂 Repo](https://github.com/cdoruk248-cmyk/HR-Analytics-Employee-Attrition-Prediction) |
 | 🧠 **Mental Health & Digital Habits Analysis** | **EN:** Multi-dataset exploratory analysis exploring relationships between digital habits, workplace burnout, and mental health.<br>**TR:** Dijital alışkanlıklar, tükenmişlik ve ruh sağlığı arasındaki ilişkileri inceleyen çoklu veri seti EDA çalışması. | `Pandas` `Seaborn` `EDA` `Machine Learning` | [📂 Repo](https://github.com/cdoruk248-cmyk/Mental-Health-Digital-Habits-Analysis) |
@@ -76,12 +76,10 @@
 
 ## 📈 GitHub Stats / İstatistikler
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=cdoruk248-cmyk&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="175" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cdoruk248-cmyk&layout=compact&theme=tokyonight&hide_border=true" height="175" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=cdoruk248-cmyk&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Doruk Celik GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cdoruk248-cmyk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+</p>
 
 ---
 
