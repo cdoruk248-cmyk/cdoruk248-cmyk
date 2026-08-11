@@ -1,498 +1,90 @@
-<!DOCTYPE html>
-<html lang="tr" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doruk Çelik | Data Science & Machine Learning Showcase</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .glass-card {
-            background: rgba(15, 23, 42, 0.75);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-        .glass-card:hover {
-            border-color: rgba(99, 102, 241, 0.4);
-            box-shadow: 0 0 25px rgba(99, 102, 241, 0.15);
-        }
-        .bg-grid-pattern {
-            background-image: radial-gradient(rgba(99, 102, 241, 0.15) 1px, transparent 1px);
-            background-size: 24px 24px;
-        }
-    </style>
-</head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased bg-grid-pattern selection:bg-indigo-500 selection:text-white">
+<div align="center">
 
-    <!-- Navigation Bar -->
-    <nav class="fixed top-0 w-full z-50 glass-card border-b border-slate-800/80 px-6 py-4">
-        <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <a href="#" class="text-lg font-bold tracking-wider text-white flex items-center gap-2">
-                <span class="text-indigo-400 font-mono">&lt;D/Ç&gt;</span> Doruk Çelik
-            </a>
-            <div class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
-                <a href="#about" class="hover:text-indigo-400 transition">Hakkımda</a>
-                <a href="#simulator" class="hover:text-indigo-400 transition">Live ML Demo</a>
-                <a href="#projects" class="hover:text-indigo-400 transition">Projeler</a>
-                <a href="#skills" class="hover:text-indigo-400 transition">Yetenekler</a>
-                <a href="#timeline" class="hover:text-indigo-400 transition">Yolculuk</a>
-            </div>
-            <a href="https://github.com/cdoruk248-cmyk" target="_blank" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-semibold tracking-wide transition shadow-lg shadow-indigo-600/30">
-                GitHub Profil
-            </a>
-        </div>
-    </nav>
+# 👋 Hi there, I'm Doruk Çelik / Merhaba, Ben Doruk!
 
-    <!-- Hero Section -->
-    <header class="max-w-6xl mx-auto px-6 pt-32 pb-20">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-7">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-mono mb-6">
-                    <span class="w-2 h-2 rounded-full bg-indigo-400 animate-ping"></span>
-                    İstatistik & MIS | Machine Learning Practitioner
-                </div>
-                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-                    Veriden Anlam, <br>
-                    <span class="bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">Modelden Gelecek</span> Üretiyorum.
-                </h1>
-                <p class="text-slate-400 text-lg leading-relaxed mb-8">
-                    Dokuz Eylül Üniversitesi İstatistik ve Anadolu Üniversitesi YBS öğrencisiyim. Karmaşık veri setlerini analiz ediyor, makine öğrenmesi algoritmalarıyla kestirimsel modeller kuruyor ve uçtan uca veri çözümleri geliştiriyorum.
-                </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="#simulator" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-xl transition flex items-center gap-2 shadow-lg shadow-indigo-600/25">
-                        <i class="fas fa-microchip"></i> Live ML Demosunu Dene
-                    </a>
-                    <a href="https://medium.com/@cdoruk248" target="_blank" class="px-6 py-3 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 font-medium rounded-xl transition flex items-center gap-2">
-                        <i class="fab fa-medium"></i> Medium Makalelerim
-                    </a>
-                </div>
-            </div>
+### 📊 Statistics Student & Data Science / ML Enthusiast
+*Dokuz Eylül Üniversitesi İstatistik Öğrencisi & Veri Bilimi Sever*
 
-            <!-- Stats & Quick Card -->
-            <div class="lg:col-span-5 grid grid-cols-2 gap-4">
-                <div class="glass-card p-6 rounded-2xl">
-                    <div class="text-indigo-400 text-3xl font-extrabold font-mono mb-1">%93.4</div>
-                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">En Yüksek ROC-AUC</div>
-                    <div class="text-slate-500 text-xs mt-2">HR Attrition Modeli</div>
-                </div>
-                <div class="glass-card p-6 rounded-2xl">
-                    <div class="text-cyan-400 text-3xl font-extrabold font-mono mb-1">2+</div>
-                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">Akademik Disiplin</div>
-                    <div class="text-slate-500 text-xs mt-2">İstatistik & YBS</div>
-                </div>
-                <div class="glass-card p-6 rounded-2xl">
-                    <div class="text-emerald-400 text-3xl font-extrabold font-mono mb-1">4+</div>
-                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">Uçtan Uca Proje</div>
-                    <div class="text-slate-500 text-xs mt-2">ML, EDA & RAG</div>
-                </div>
-                <div class="glass-card p-6 rounded-2xl">
-                    <div class="text-purple-400 text-3xl font-extrabold font-mono mb-1">TOG</div>
-                    <div class="text-xs text-slate-400 font-medium uppercase tracking-wider">Genel Koordinatör</div>
-                    <div class="text-slate-500 text-xs mt-2">Topluluk Liderliği</div>
-                </div>
-            </div>
-        </div>
-    </header>
+[![Portfolio Website](https://img.shields.io/badge/🌐_Personal_Portfolio-cdoruk248--cmyk.github.io-4F46E5?style=for-the-badge)](https://cdoruk248-cmyk.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cdoruk248-cmyk)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=cdoruk248@gmail.com)
 
-    <!-- LIVE INTERACTIVE ML SIMULATOR SECTION -->
-    <section id="simulator" class="max-w-6xl mx-auto px-6 py-16">
-        <div class="glass-card p-8 sm:p-10 rounded-3xl border border-indigo-500/30 relative overflow-hidden">
-            <div class="absolute -right-20 -top-20 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
-            
-            <div class="mb-8">
-                <span class="text-xs font-mono text-indigo-400 tracking-wider uppercase font-semibold">İnteraktif Deneyim</span>
-                <h2 class="text-2xl sm:text-3xl font-bold text-white mt-1">📊 Canlı İK Ayrılma (Attrition) Riski Simülatörü</h2>
-                <p class="text-slate-400 text-sm mt-2">
-                    Projemde eğittiğim Random Forest modelinin karar mekanizmasını doğrudan burada test edin. Parametreleri değiştirerek tahmini risk skorunu anlık gözlemleyin.
-                </p>
-            </div>
+---
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                <!-- Controls -->
-                <div class="lg:col-span-7 space-y-6">
-                    <div>
-                        <div class="flex justify-between text-sm font-medium text-slate-300 mb-2">
-                            <span>İş Tatmini (Job Satisfaction)</span>
-                            <span id="satVal" class="text-indigo-400 font-mono">3 / 4</span>
-                        </div>
-                        <input type="range" id="satSlider" min="1" max="4" value="3" class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500">
-                    </div>
+</div>
 
-                    <div>
-                        <div class="flex justify-between text-sm font-medium text-slate-300 mb-2">
-                            <span>İş - Yaşam Dengesi (Work-Life Balance)</span>
-                            <span id="wlbVal" class="text-indigo-400 font-mono">2 / 4</span>
-                        </div>
-                        <input type="range" id="wlbSlider" min="1" max="4" value="2" class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500">
-                    </div>
+## 🚀 About Me / Hakkımda
 
-                    <div class="grid grid-cols-2 gap-4">
-                        <div>
-                            <label class="block text-sm font-medium text-slate-300 mb-2">Fazla Mesai Var mı?</label>
-                            <select id="otSelect" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500">
-                                <option value="yes">Evet (Düzenli OverTime)</option>
-                                <option value="no" selected>Hayır</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-slate-300 mb-2">Şirketteki Yıl</label>
-                            <input type="number" id="yearsInput" value="2" min="0" max="20" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 font-mono">
-                        </div>
-                    </div>
-                </div>
+**EN:**
+* 🎓 Undergraduate **Statistics** student at Dokuz Eylül University with a strong foundation in probability, regression analysis, and mathematical statistics.
+* 🔬 Passionate about **End-to-End Machine Learning**, **Time Series Forecasting**, **Statistical Hypothesis Testing**, and **GenAI / RAG** applications.
+* 🤝 General Coordinator at Dokuz Eylül University TOG Community, managing team resources and community projects.
+* 🌐 Check out my full interactive project showcase at **[cdoruk248-cmyk.github.io](https://cdoruk248-cmyk.github.io)**!
 
-                <!-- Result Box -->
-                <div class="lg:col-span-5 bg-slate-900/90 border border-slate-800 p-6 rounded-2xl text-center flex flex-col justify-center items-center">
-                    <div class="text-xs uppercase tracking-widest text-slate-400 mb-2">Tahmini Ayrılma Riski</div>
-                    <div id="riskScore" class="text-5xl font-black font-mono text-emerald-400 my-2">%18.5</div>
-                    <div id="riskBadge" class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-4">Düşük Risk</div>
-                    <p id="riskDesc" class="text-xs text-slate-400 leading-relaxed">
-                        Çalışanın iş-yaşam dengesi makul seviyede. Ayrılma olasılığı düşük görünmektedir.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+**TR:**
+* 🎓 Dokuz Eylül Üniversitesi **İstatistik** bölümü lisans öğrencisi; olasılık, regresyon analizleri ve matematiksel istatistik odağında çalışmalar yapıyorum.
+* 🔬 **Uçtan Uca Makine Öğrenmesi**, **Zaman Serisi Analitiği**, **İstatistiksel Hipotez Testleri** ve **Üretken Yapay Zeka (GenAI / RAG)** teknolojilerine odaklanıyorum.
+* 🤝 Dokuz Eylül Üniversitesi TOG Topluluğu Genel Koordinatörü olarak topluluk projelerini ve organizasyon süreçlerini yönetiyorum.
+* 🌐 Tüm projelerimin detaylı ve interaktif dökümüne **[cdoruk248-cmyk.github.io](https://cdoruk248-cmyk.github.io)** adresi üzerinden ulaşabilirsiniz!
 
-    <!-- PROJECTS SECTION WITH FILTER -->
-    <section id="projects" class="max-w-6xl mx-auto px-6 py-16">
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
-            <div>
-                <span class="text-xs font-mono text-indigo-400 tracking-wider uppercase font-semibold">Portfolyo</span>
-                <h2 class="text-3xl font-bold text-white mt-1">Öne Çıkan Çalışmalarım</h2>
-            </div>
-            
-            <!-- Filter Buttons -->
-            <div class="flex flex-wrap gap-2 text-xs font-medium">
-                <button onclick="filterProjects('all')" class="project-filter-btn px-4 py-2 rounded-xl bg-indigo-600 text-white transition" data-filter="all">Tümü</button>
-                <button onclick="filterProjects('ml')" class="project-filter-btn px-4 py-2 rounded-xl bg-slate-900 text-slate-400 hover:text-white transition" data-filter="ml">Makine Öğrenmesi</button>
-                <button onclick="filterProjects('eda')" class="project-filter-btn px-4 py-2 rounded-xl bg-slate-900 text-slate-400 hover:text-white transition" data-filter="eda">Veri Analizi (EDA)</button>
-                <button onclick="filterProjects('llm')" class="project-filter-btn px-4 py-2 rounded-xl bg-slate-900 text-slate-400 hover:text-white transition" data-filter="llm">Yapay Zeka & RAG</button>
-            </div>
-        </div>
+---
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            
-            <!-- Project Card 1 -->
-            <div class="project-card glass-card p-8 rounded-3xl flex flex-col justify-between transition group" data-category="ml">
-                <div>
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="text-xs font-mono text-indigo-400 bg-indigo-500/10 px-3 py-1 rounded-full border border-indigo-500/20">Machine Learning / HR</span>
-                        <div class="flex gap-3 text-slate-400 text-lg">
-                            <a href="https://github.com/cdoruk248-cmyk/HR-Analytics-Employee-Attrition-Prediction" target="_blank" class="hover:text-white transition"><i class="fab fa-github"></i></a>
-                            <a href="https://medium.com/@cdoruk248" target="_blank" class="hover:text-emerald-400 transition"><i class="fab fa-medium"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-400 transition">HR Analytics Attrition Prediction</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        IBM HR veri seti üzerinde SMOTE ile sınıf dengesizliği çözülmüş, Random Forest & Lojistik Regresyon modelleri ile %93.4 ROC-AUC skoru elde edilmiş uçtan uca risk tahmin boru hattı.
-                    </p>
-                </div>
-                <div>
-                    <div class="flex flex-wrap gap-2 text-xs font-mono text-indigo-300 mb-6">
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Python</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">SMOTE</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Random Forest</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Feature Importances</span>
-                    </div>
-                    <a href="https://github.com/cdoruk248-cmyk/HR-Analytics-Employee-Attrition-Prediction" target="_blank" class="inline-flex items-center gap-2 text-sm font-semibold text-indigo-400 hover:text-indigo-300">
-                        Repoyu İncele <i class="fas fa-arrow-right text-xs"></i>
-                    </a>
-                </div>
-            </div>
+## 🔥 Featured Projects / Öne Çıkan Projeler
 
-            <!-- Project Card 2 -->
-            <div class="project-card glass-card p-8 rounded-3xl flex flex-col justify-between transition group" data-category="ml">
-                <div>
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20">Classification / Healthcare</span>
-                        <div class="flex gap-3 text-slate-400 text-lg">
-                            <a href="https://github.com/cdoruk248-cmyk/hastalik-riski-siniflandirma-knn-svm" target="_blank" class="hover:text-white transition"><i class="fab fa-github"></i></a>
-                            <a href="https://medium.com/@cdoruk248" target="_blank" class="hover:text-emerald-400 transition"><i class="fab fa-medium"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition">Hastalık Riski Sınıflandırması (KNN vs SVM)</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        Biyometrik parametrelerden hastalık riskini kestiren model karşılaştırması. SVM (RBF Kernel) %94.49 ROC-AUC ve yüksek Recall oranıyla klinik teşhiste en güvenilir model seçilmiştir.
-                    </p>
-                </div>
-                <div>
-                    <div class="flex flex-wrap gap-2 text-xs font-mono text-cyan-300 mb-6">
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">KNN</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">SVM</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">StandardScaler</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">GridSearchCV</span>
-                    </div>
-                    <a href="https://github.com/cdoruk248-cmyk/hastalik-riski-siniflandirma-knn-svm" target="_blank" class="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300">
-                        Repoyu İncele <i class="fas fa-arrow-right text-xs"></i>
-                    </a>
-                </div>
-            </div>
+| Project / Proje | Description (EN / TR) | Tech Stack | Links |
+| :--- | :--- | :--- | :---: |
+| 🇹🇷 **COVID-19 Turkey Analytics Hub** | **EN:** Time series analytics, Mann-Whitney U hypothesis testing, Isolation Forest anomaly detection, and XGBoost death forecasting (R² = 0.98).<br>**TR:** Zaman serisi analitiği, Mann-Whitney U testiyle tam kapanma etki ölçümü, anomali tespiti ve XGBoost vefat kestirim modeli. | `Python` `Streamlit` `XGBoost` `SciPy` | [📂 Repo](https://github.com/cdoruk248-cmyk/covid19-turkey-analytics) <br> [🌐 Live App](https://covid19-turkey-analytics-nco9cy2sjfetgsgwevb5wz.streamlit.app/) |
+| 📞 **Telco Customer Churn Prediction** | **EN:** Predicting telecom customer churn using XGBoost and Logistic Regression with interactive Streamlit web deployment.<br>**TR:** Telekomünikasyon müşteri kayıp eğilimlerini XGBoost ile tahmin eden ve Streamlit ile canlıya alınan ML projesi. | `Python` `Streamlit` `XGBoost` `Scikit-Learn` | [📂 Repo](https://github.com/cdoruk248-cmyk/Telco-Customer-Churn-Prediction) |
+| 🤖 **Local AI LinkedIn Profile Analyzer** | **EN:** 100% local LLM-powered LinkedIn profile analyzer offering HR recommendations using Ollama & Qwen 2.5.<br>**TR:** Ollama & Qwen 2.5 altyapısıyla çalışan %100 yerel LinkedIn profil analiz ve İK tavsiye uygulaması. | `Python` `Streamlit` `Ollama` `Qwen` | [📂 Repo](https://github.com/cdoruk248-cmyk/linkedin-bot) |
+| 🏢 **HR Analytics Employee Attrition** | **EN:** End-to-end ML application predicting employee churn risks and identifying key organizational turnover drivers.<br>**TR:** Şirket içi çalışan ayrılma (attrition) risklerini tahmin eden ve kök nedenleri analiz eden uçtan uca ML projesi. | `Python` `Scikit-Learn` `XGBoost` | [📂 Repo](https://github.com/cdoruk248-cmyk/HR-Analytics-Employee-Attrition-Prediction) |
+| 🧠 **Mental Health & Digital Habits Analysis** | **EN:** Multi-dataset exploratory analysis exploring relationships between digital habits, workplace burnout, and mental health.<br>**TR:** Dijital alışkanlıklar, tükenmişlik ve ruh sağlığı arasındaki ilişkileri inceleyen çoklu veri seti EDA çalışması. | `Pandas` `Seaborn` `EDA` `Machine Learning` | [📂 Repo](https://github.com/cdoruk248-cmyk/Mental-Health-Digital-Habits-Analysis) |
+| 🎬 **Akbank GenAI Recommender Chatbot** | **EN:** RAG-based interactive movie recommendation chatbot developed for Akbank & Global AI Hub Bootcamp.<br>**TR:** Akbank & Global AI Hub Generative AI Bootcamp için geliştirilen RAG tabanlı film öneri chatbot'u. | `Python` `GenAI` `RAG` `LLM` | [📂 Repo](https://github.com/cdoruk248-cmyk/akbank-gaih-chatbot) |
 
-            <!-- Project Card 3 -->
-            <div class="project-card glass-card p-8 rounded-3xl flex flex-col justify-between transition group" data-category="eda">
-                <div>
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="text-xs font-mono text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">E-Commerce / Business EDA</span>
-                        <div class="flex gap-3 text-slate-400 text-lg">
-                            <a href="https://github.com/cdoruk248-cmyk/veri-bilimi-final-odevi" target="_blank" class="hover:text-white transition"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-emerald-400 transition">E-Ticaret Veri Analitiği & İş Mimarisi</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        Müşteri segmentasyonu, sepet ortalaması (AOV), coğrafi büyüme potansiyelleri ve kategori ciro dalgalanmalarının görselleştirildiği detaylı keşifçi veri analizi.
-                    </p>
-                </div>
-                <div>
-                    <div class="flex flex-wrap gap-2 text-xs font-mono text-emerald-300 mb-6">
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Pandas</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Seaborn</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Data Viz</span>
-                    </div>
-                    <a href="https://github.com/cdoruk248-cmyk/veri-bilimi-final-odevi" target="_blank" class="inline-flex items-center gap-2 text-sm font-semibold text-emerald-400 hover:text-emerald-300">
-                        Repoyu İncele <i class="fas fa-arrow-right text-xs"></i>
-                    </a>
-                </div>
-            </div>
+---
 
-            <!-- Project Card 4 -->
-            <div class="project-card glass-card p-8 rounded-3xl flex flex-col justify-between transition group" data-category="llm">
-                <div>
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">GenAI / Local LLM</span>
-                        <div class="flex gap-3 text-slate-400 text-lg">
-                            <a href="https://github.com/cdoruk248-cmyk/linkedin-bot" target="_blank" class="hover:text-white transition"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-400 transition">LinkedIn Profil Analiz Botu (Local LLM)</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                        Tamamen yerel cihazda çalışan Ollama & Qwen 2.5 mimarisiyle LinkedIn profillerini hedef pozisyona göre analiz edip İK tavsiyeleri üreten Streamlit uygulaması.
-                    </p>
-                </div>
-                <div>
-                    <div class="flex flex-wrap gap-2 text-xs font-mono text-purple-300 mb-6">
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Streamlit</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Ollama</span>
-                        <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-lg">Qwen 2.5</span>
-                    </div>
-                    <a href="https://github.com/cdoruk248-cmyk/linkedin-bot" target="_blank" class="inline-flex items-center gap-2 text-sm font-semibold text-purple-400 hover:text-purple-300">
-                        Repoyu İncele <i class="fas fa-arrow-right text-xs"></i>
-                    </a>
-                </div>
-            </div>
+## 🛠️ Tech Stack & Tools / Teknolojiler
 
-        </div>
-    </section>
+<div align="left">
 
-    <!-- SKILLS RADAR CHART SECTION -->
-    <section id="skills" class="max-w-6xl mx-auto px-6 py-16">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-5">
-                <span class="text-xs font-mono text-indigo-400 tracking-wider uppercase font-semibold">Yetkinlik Mimarisi</span>
-                <h2 class="text-3xl font-bold text-white mt-1 mb-4">Teori ve Uygulamanın Kesişimi</h2>
-                <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                    İstatistiksel modelleme temellerini Yönetim Bilişim Sistemleri'nin iş bakış açısıyla harmanlıyorum.
-                </p>
-                
-                <div class="space-y-4 text-sm">
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-indigo-400"></i>
-                        <span class="text-slate-300">Python, SQL & R ile Gelişmiş Veri Manipülasyonu</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-indigo-400"></i>
-                        <span class="text-slate-300">Makine Öğrenmesi (Scikit-Learn, Hyperparameter Tuning)</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-indigo-400"></i>
-                        <span class="text-slate-300">İstatistiksel Hipotez Testleri ve Olasılık Modelleme</span>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-check-circle text-indigo-400"></i>
-                        <span class="text-slate-300">Yerel LLM Entegrasyonları & RAG Mimarileri</span>
-                    </div>
-                </div>
-            </div>
+**Languages & Data Manipulation:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=sqlite&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-            <!-- Chart -->
-            <div class="lg:col-span-7 glass-card p-6 rounded-3xl">
-                <canvas id="skillsChart" class="w-full max-h-80"></canvas>
-            </div>
-        </div>
-    </section>
+**Machine Learning & Statistics:**  
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-111111?style=flat-square&logo=xgboost&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-4B8BBE?style=flat-square&logo=python&logoColor=white)
 
-    <!-- TIMELINE / JOURNEY SECTION -->
-    <section id="timeline" class="max-w-6xl mx-auto px-6 py-16">
-        <div class="text-center max-w-2xl mx-auto mb-12">
-            <span class="text-xs font-mono text-indigo-400 tracking-wider uppercase font-semibold">Gelişim Süreci</span>
-            <h2 class="text-3xl font-bold text-white mt-1">Akademik & Liderlik Yolculuğu</h2>
-        </div>
+**Visualization & Web Deployment:**  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white)
 
-        <div class="max-w-3xl mx-auto relative border-l-2 border-slate-800 pl-8 space-y-10">
-            
-            <!-- Timeline Item 1 -->
-            <div class="relative group">
-                <div class="absolute -left-[41px] top-0 w-5 h-5 rounded-full bg-indigo-600 border-4 border-slate-950 group-hover:scale-125 transition"></div>
-                <span class="text-xs font-mono text-indigo-400">2026 - Halen</span>
-                <h3 class="text-lg font-bold text-white mt-1">Genel Koordinatör @ DEÜ Toplum Gönüllüleri Topluluğu</h3>
-                <p class="text-slate-400 text-sm mt-2 leading-relaxed">
-                    Öğrenci topluluğunda genel yönetim, kaynak geliştirme ve sosyal sorumluluk projelerinin uçtan uca organizasyon liderliği.
-                </p>
-            </div>
+**Tools & Environment:**  
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-            <!-- Timeline Item 2 -->
-            <div class="relative group">
-                <div class="absolute -left-[41px] top-0 w-5 h-5 rounded-full bg-cyan-500 border-4 border-slate-950 group-hover:scale-125 transition"></div>
-                <span class="text-xs font-mono text-cyan-400">2025 - 2026</span>
-                <h3 class="text-lg font-bold text-white mt-1">Türkiye Yapay Zeka Akademisi & HSD Bootcamp</h3>
-                <p class="text-slate-400 text-sm mt-2 leading-relaxed">
-                    Veri Bilimi ve Makine Öğrenmesi alanında bitirme projeleri, SMOTE, sınıflandırma modelleri ve teknik Medium yayınlarının hazırlanması.
-                </p>
-            </div>
+</div>
 
-            <!-- Timeline Item 3 -->
-            <div class="relative group">
-                <div class="absolute -left-[41px] top-0 w-5 h-5 rounded-full bg-emerald-500 border-4 border-slate-950 group-hover:scale-125 transition"></div>
-                <span class="text-xs font-mono text-emerald-400">Lisans Eğitimi</span>
-                <h3 class="text-lg font-bold text-white mt-1">Dokuz Eylül Üniv. (İstatistik) & Anadolu Üniv. (YBS)</h3>
-                <p class="text-slate-400 text-sm mt-2 leading-relaxed">
-                    Matematiksel İstatistik, Regresyon Analizi, Yöneylem Araştırması ve Yönetim Bilişim Sistemleri eğitimi.
-                </p>
-            </div>
+---
 
-        </div>
-    </section>
+## 📈 GitHub Activity / İstatistikler
 
-    <!-- FOOTER -->
-    <footer class="glass-card border-t border-slate-800/80 py-12 mt-20">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-            <h3 class="text-2xl font-bold text-white mb-2">Birlikte Veri Odaklı Projeler Geliştirelim</h3>
-            <p class="text-slate-400 text-sm mb-6 max-w-md mx-auto">
-                Sorularınız, proje iş birlikleri veya veri bilimi sohbetleri için doğrudan ulaşabilirsiniz.
-            </p>
-            
-            <div class="flex justify-center gap-6 text-xl mb-8">
-                <a href="https://github.com/cdoruk248-cmyk" target="_blank" class="text-slate-400 hover:text-white transition"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/dorukcelik" target="_blank" class="text-slate-400 hover:text-blue-400 transition"><i class="fab fa-linkedin"></i></a>
-                <a href="https://medium.com/@cdoruk248" target="_blank" class="text-slate-400 hover:text-emerald-400 transition"><i class="fab fa-medium"></i></a>
-            </div>
+<div align="center">
 
-            <div class="text-xs text-slate-500 font-mono">
-                © 2026 Doruk Çelik. Built with HTML, Tailwind CSS & Chart.js.
-            </div>
-        </div>
-    </footer>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cdoruk248-cmyk&theme=tokyonight&hide_border=true&area=true" alt="GitHub Activity Graph" width="95%" />
 
-    <!-- INTERACTIVE JAVASCRIPT LOGIC -->
-    <script>
-        // 1. Live ML Simulator Calculation
-        function updateSimulator() {
-            const sat = parseInt(document.getElementById('satSlider').value);
-            const wlb = parseInt(document.getElementById('wlbSlider').value);
-            const ot = document.getElementById('otSelect').value;
-            const years = parseInt(document.getElementById('yearsInput').value) || 0;
+</div>
 
-            document.getElementById('satVal').innerText = sat + " / 4";
-            document.getElementById('wlbVal').innerText = wlb + " / 4";
+---
 
-            // Calculation logic simulating Random Forest weights
-            let baseRisk = 30;
-            baseRisk -= (sat * 6);
-            baseRisk -= (wlb * 5);
-            if (ot === 'yes') baseRisk += 32;
-            if (years <= 2) baseRisk += 14;
-
-            baseRisk = Math.max(4, Math.min(94, baseRisk));
-
-            const riskEl = document.getElementById('riskScore');
-            const badgeEl = document.getElementById('riskBadge');
-            const descEl = document.getElementById('riskDesc');
-
-            riskEl.innerText = "%" + baseRisk.toFixed(1);
-
-            if (baseRisk > 50) {
-                riskEl.className = "text-5xl font-black font-mono text-rose-500 my-2";
-                badgeEl.className = "inline-block px-3 py-1 rounded-full text-xs font-semibold bg-rose-500/10 text-rose-400 border border-rose-500/20 mb-4";
-                badgeEl.innerText = "Yüksek Risk";
-                descEl.innerText = "Düşük tatmin ve fazla mesai yükü çalışanın ayrılma olasılığını kritik seviyeye çıkarmaktadır.";
-            } else if (baseRisk > 25) {
-                riskEl.className = "text-5xl font-black font-mono text-amber-400 my-2";
-                badgeEl.className = "inline-block px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20 mb-4";
-                badgeEl.innerText = "Orta Risk";
-                descEl.innerText = "Çalışan stabiil görünmekle birlikte izlenmesi ve iş yükünün dengelenmesi önerilir.";
-            } else {
-                riskEl.className = "text-5xl font-black font-mono text-emerald-400 my-2";
-                badgeEl.className = "inline-block px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 mb-4";
-                badgeEl.innerText = "Düşük Risk";
-                descEl.innerText = "Çalışanın tutundurma faktörleri yüksek, istifa riski oldukça düşüktür.";
-            }
-        }
-
-        document.getElementById('satSlider').addEventListener('input', updateSimulator);
-        document.getElementById('wlbSlider').addEventListener('input', updateSimulator);
-        document.getElementById('otSelect').addEventListener('change', updateSimulator);
-        document.getElementById('yearsInput').addEventListener('input', updateSimulator);
-
-        // 2. Project Filter Logic
-        function filterProjects(cat) {
-            const cards = document.querySelectorAll('.project-card');
-            const btns = document.querySelectorAll('.project-filter-btn');
-
-            btns.forEach(btn => {
-                if (btn.getAttribute('data-filter') === cat) {
-                    btn.className = "project-filter-btn px-4 py-2 rounded-xl bg-indigo-600 text-white transition";
-                } else {
-                    btn.className = "project-filter-btn px-4 py-2 rounded-xl bg-slate-900 text-slate-400 hover:text-white transition";
-                }
-            });
-
-            cards.forEach(card => {
-                if (cat === 'all' || card.getAttribute('data-category') === cat) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-
-        // 3. Chart.js Skills Radar
-        window.addEventListener('DOMContentLoaded', () => {
-            updateSimulator();
-            
-            const ctx = document.getElementById('skillsChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'radar',
-                data: {
-                    labels: ['Matematiksel İstatistik', 'Makine Öğrenmesi', 'Veri Analizi (EDA)', 'Python & Kütüphaneler', 'SQL & Veri Tabanı', 'LLM & RAG'],
-                    datasets: [{
-                        label: 'Yetenek Yetkinlik Oranı (%)',
-                        data: [90, 88, 92, 95, 80, 75],
-                        backgroundColor: 'rgba(99, 102, 241, 0.25)',
-                        borderColor: 'rgba(99, 102, 241, 1)',
-                        pointBackgroundColor: '#38bdf8',
-                        pointBorderColor: '#fff',
-                        pointHoverBackgroundColor: '#fff',
-                        pointHoverBorderColor: '#38bdf8'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        r: {
-                            angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
-                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
-                            pointLabels: { color: '#94a3b8', font: { size: 11 } },
-                            ticks: { display: false, max: 100 }
-                        }
-                    },
-                    plugins: {
-                        legend: { display: false }
-                    }
-                }
-            });
-        });
-    </script>
-</body>
-</html> burada nereye yapacaz bulamadım sen buraya ekleyip güncel kodu verir misin
+<div align="center">
+  <sub>Built with ☕, Statistics, and Data Science. Thanks for visiting! / Ziyaret ettiğiniz için teşekkürler!</sub>
+</div>
