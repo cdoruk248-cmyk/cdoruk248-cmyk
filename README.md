@@ -74,15 +74,16 @@
 
 ---
 
-## 📈 GitHub Stats & Activity / İstatistikler
+## 📈 GitHub Activity & Languages / İstatistikler
 
 <div align="center">
 
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cdoruk248-cmyk&theme=tokyonight)
+<!-- En Çok Kullanılan Diller (Yıldız göstermez, doğrudan kod oranlarını şıkça sunar) -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cdoruk248-cmyk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
-<br/>
+<br/><br/>
 
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/top-languages?username=cdoruk248-cmyk&theme=tokyonight)
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cdoruk248-cmyk&theme=tokyonight)
+<!-- Aktivite Çizgi Grafiği (Son dönemdeki commit dalgalanmanı gösteren estetik grafik) -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cdoruk248-cmyk&theme=tokyonight&hide_border=true&area=true" alt="GitHub Activity Graph" width="90%" />
 
 </div>
