@@ -74,17 +74,16 @@
 
 ---
 
-## 📈 GitHub Stats / İstatistikler
+## 📈 GitHub Stats & Activity / İstatistikler
 
 <div align="center">
 
-![Doruk's GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdoruk248-cmyk&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cdoruk248-cmyk&layout=compact&theme=tokyonight)
+<!-- GitHub Streak Stats (Çökme yapmayan yüksek erişilebilirlikli servis) -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=cdoruk248-cmyk&theme=tokyonight&hide_border=true)
 
-</div>
+<br/>
 
----
+<!-- GitHub Profile Summary Cards -->
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cdoruk248-cmyk&theme=tokyonight)
 
-<div align="center">
-  <sub>Built with ☕, Statistics, and Data Science. Thanks for visiting! / Ziyaret ettiğiniz için teşekkürler!</sub>
 </div>
