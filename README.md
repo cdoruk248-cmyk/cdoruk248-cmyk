@@ -6,8 +6,8 @@
 *Dokuz Eylül Üniversitesi İstatistik Öğrencisi & Veri Bilimi Sever*
 
 [![Portfolio Website](https://img.shields.io/badge/🌐_Personal_Portfolio-cdoruk248--cmyk.github.io-4F46E5?style=for-the-badge)](https://cdoruk248-cmyk.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cdoruk248@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cdoruk248-cmyk)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=cdoruk248@gmail.com)
 
 ---
 
@@ -76,10 +76,12 @@
 
 ## 📈 GitHub Stats / İstatistikler
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cdoruk248-cmyk&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Doruk Celik GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cdoruk248-cmyk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</p>
+<div align="center">
+
+![Doruk's GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdoruk248-cmyk&show_icons=true&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cdoruk248-cmyk&layout=compact&theme=tokyonight)
+
+</div>
 
 ---
 
