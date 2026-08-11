@@ -78,12 +78,11 @@
 
 <div align="center">
 
-<!-- GitHub Streak Stats (Çökme yapmayan yüksek erişilebilirlikli servis) -->
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=cdoruk248-cmyk&theme=tokyonight&hide_border=true)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cdoruk248-cmyk&theme=tokyonight)
 
 <br/>
 
-<!-- GitHub Profile Summary Cards -->
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cdoruk248-cmyk&theme=tokyonight)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/top-languages?username=cdoruk248-cmyk&theme=tokyonight)
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cdoruk248-cmyk&theme=tokyonight)
 
 </div>
