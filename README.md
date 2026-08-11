@@ -78,12 +78,12 @@
 
 <div align="center">
 
-<!-- En Çok Kullanılan Diller (Yıldız göstermez, doğrudan kod oranlarını şıkça sunar) -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cdoruk248-cmyk&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<!-- En Çok Kullanılan Diller (Yıldız/Star sayısı içermez, çökme yapmaz) -->
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/top-languages?username=cdoruk248-cmyk&theme=tokyonight)
 
 <br/><br/>
 
-<!-- Aktivite Çizgi Grafiği (Son dönemdeki commit dalgalanmanı gösteren estetik grafik) -->
+<!-- Dinamik Aktivite Grafiği -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=cdoruk248-cmyk&theme=tokyonight&hide_border=true&area=true" alt="GitHub Activity Graph" width="90%" />
 
 </div>
