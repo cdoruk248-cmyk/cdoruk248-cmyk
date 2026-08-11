@@ -73,17 +73,11 @@
 </div>
 
 ---
-
-## 📈 GitHub Activity & Languages / İstatistikler
+## 📈 GitHub Activity / İstatistikler
 
 <div align="center">
 
-<!-- En Çok Kullanılan Diller (Yıldız/Star sayısı içermez, çökme yapmaz) -->
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/top-languages?username=cdoruk248-cmyk&theme=tokyonight)
-
-<br/><br/>
-
-<!-- Dinamik Aktivite Grafiği -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cdoruk248-cmyk&theme=tokyonight&hide_border=true&area=true" alt="GitHub Activity Graph" width="90%" />
+<!-- Dinamik Aktivite Grafiği (%100 Sorunsuz Çalışan Versiyon) -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cdoruk248-cmyk&theme=tokyonight&hide_border=true&area=true" alt="GitHub Activity Graph" width="95%" />
 
 </div>
