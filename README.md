@@ -5,8 +5,8 @@
 ### 📊 Statistics Student & Data Science / ML Enthusiast
 *Dokuz Eylül Üniversitesi İstatistik Öğrencisi & Veri Bilimi Sever*
 
-[![Portfolio Website](https://img.shields.io/badge/🌐_Personal_Portfolio-cdoruk248--cmyk.github.io-4F46E5?style=for-the-badge)](https://cdoruk248-cmyk.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cdoruk248-cmyk)
+[![Portfolio Website](https://img.shields.io/badge/🌐_Personal_Portfolio-doruk--celik.github.io-4F46E5?style=for-the-badge)](https://doruk-celik.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/doruk-celik)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=cdoruk248@gmail.com)
 
 ---
@@ -19,13 +19,13 @@
 * 🎓 Undergraduate **Statistics** student at Dokuz Eylül University with a strong foundation in probability, regression analysis, and mathematical statistics.
 * 🔬 Passionate about **End-to-End Machine Learning**, **Time Series Forecasting**, **Statistical Hypothesis Testing**, and **GenAI / RAG** applications.
 * 🤝 General Coordinator at Dokuz Eylül University TOG Community, managing team resources and community projects.
-* 🌐 Check out my full interactive project showcase at **[cdoruk248-cmyk.github.io](https://cdoruk248-cmyk.github.io)**!
+* 🌐 Check out my full interactive project showcase at **[doruk-celik.github.io](https://doruk-celik.github.io)**!
 
 **TR:**
 * 🎓 Dokuz Eylül Üniversitesi **İstatistik** bölümü lisans öğrencisi; olasılık, regresyon analizleri ve matematiksel istatistik odağında çalışmalar yapıyorum.
 * 🔬 **Uçtan Uca Makine Öğrenmesi**, **Zaman Serisi Analitiği**, **İstatistiksel Hipotez Testleri** ve **Üretken Yapay Zeka (GenAI / RAG)** teknolojilerine odaklanıyorum.
 * 🤝 Dokuz Eylül Üniversitesi TOG Topluluğu Genel Koordinatörü olarak topluluk projelerini ve organizasyon süreçlerini yönetiyorum.
-* 🌐 Tüm projelerimin detaylı ve interaktif dökümüne **[cdoruk248-cmyk.github.io](https://cdoruk248-cmyk.github.io)** adresi üzerinden ulaşabilirsiniz!
+* 🌐 Tüm projelerimin detaylı ve interaktif dökümüne **[doruk-celik.github.io](https://doruk-celik.github.io)** adresi üzerinden ulaşabilirsiniz!
 
 ---
 
@@ -33,12 +33,12 @@
 
 | Project / Proje | Description (EN / TR) | Tech Stack | Links |
 | :--- | :--- | :--- | :---: |
-| 🇹🇷 **COVID-19 Turkey Analytics Hub** | **EN:** Time series analytics, Mann-Whitney U hypothesis testing, Isolation Forest anomaly detection, and XGBoost death forecasting (R² = 0.98).<br>**TR:** Zaman serisi analitiği, Mann-Whitney U testiyle tam kapanma etki ölçümü, anomali tespiti ve XGBoost vefat kestirim modeli. | `Python` `Streamlit` `XGBoost` `SciPy` | [📂 Repo](https://github.com/cdoruk248-cmyk/covid19-turkey-analytics) <br> [🌐 Live App](https://covid19-turkey-analytics-nco9cy2sjfetgsgwevb5wz.streamlit.app/) |
-| 📞 **Telco Customer Churn Prediction** | **EN:** Predicting telecom customer churn using XGBoost and Logistic Regression with interactive Streamlit web deployment.<br>**TR:** Telekomünikasyon müşteri kayıp eğilimlerini XGBoost ile tahmin eden ve Streamlit ile canlıya alınan ML projesi. | `Python` `Streamlit` `XGBoost` `Scikit-Learn` | [📂 Repo](https://github.com/cdoruk248-cmyk/Telco-Customer-Churn-Prediction) |
-| 🤖 **Local AI LinkedIn Profile Analyzer** | **EN:** 100% local LLM-powered LinkedIn profile analyzer offering HR recommendations using Ollama & Qwen 2.5.<br>**TR:** Ollama & Qwen 2.5 altyapısıyla çalışan %100 yerel LinkedIn profil analiz ve İK tavsiye uygulaması. | `Python` `Streamlit` `Ollama` `Qwen` | [📂 Repo](https://github.com/cdoruk248-cmyk/linkedin-bot) |
-| 🏢 **HR Analytics Employee Attrition** | **EN:** End-to-end ML application predicting employee churn risks and identifying key organizational turnover drivers.<br>**TR:** Şirket içi çalışan ayrılma (attrition) risklerini tahmin eden ve kök nedenleri analiz eden uçtan uca ML projesi. | `Python` `Scikit-Learn` `XGBoost` | [📂 Repo](https://github.com/cdoruk248-cmyk/HR-Analytics-Employee-Attrition-Prediction) |
-| 🧠 **Mental Health & Digital Habits Analysis** | **EN:** Multi-dataset exploratory analysis exploring relationships between digital habits, workplace burnout, and mental health.<br>**TR:** Dijital alışkanlıklar, tükenmişlik ve ruh sağlığı arasındaki ilişkileri inceleyen çoklu veri seti EDA çalışması. | `Pandas` `Seaborn` `EDA` `Machine Learning` | [📂 Repo](https://github.com/cdoruk248-cmyk/Mental-Health-Digital-Habits-Analysis) |
-| 🎬 **Akbank GenAI Recommender Chatbot** | **EN:** RAG-based interactive movie recommendation chatbot developed for Akbank & Global AI Hub Bootcamp.<br>**TR:** Akbank & Global AI Hub Generative AI Bootcamp için geliştirilen RAG tabanlı film öneri chatbot'u. | `Python` `GenAI` `RAG` `LLM` | [📂 Repo](https://github.com/cdoruk248-cmyk/akbank-gaih-chatbot) |
+| 🇹🇷 **COVID-19 Turkey Analytics Hub** | **EN:** Time series analytics, Mann-Whitney U hypothesis testing, Isolation Forest anomaly detection, and XGBoost death forecasting (R² = 0.98).<br>**TR:** Zaman serisi analitiği, Mann-Whitney U testiyle tam kapanma etki ölçümü, anomali tespiti ve XGBoost vefat kestirim modeli. | `Python` `Streamlit` `XGBoost` `SciPy` | [📂 Repo](https://github.com/doruk-celik/covid19-turkey-analytics) <br> [🌐 Live App](https://covid19-turkey-analytics-nco9cy2sjfetgsgwevb5wz.streamlit.app/) |
+| 📞 **Telco Customer Churn Prediction** | **EN:** Predicting telecom customer churn using XGBoost and Logistic Regression with interactive Streamlit web deployment.<br>**TR:** Telekomünikasyon müşteri kayıp eğilimlerini XGBoost ile tahmin eden ve Streamlit ile canlıya alınan ML projesi. | `Python` `Streamlit` `XGBoost` `Scikit-Learn` | [📂 Repo](https://github.com/doruk-celik/Telco-Customer-Churn-Prediction) |
+| 🤖 **Local AI LinkedIn Profile Analyzer** | **EN:** 100% local LLM-powered LinkedIn profile analyzer offering HR recommendations using Ollama & Qwen 2.5.<br>**TR:** Ollama & Qwen 2.5 altyapısıyla çalışan %100 yerel LinkedIn profil analiz ve İK tavsiye uygulaması. | `Python` `Streamlit` `Ollama` `Qwen` | [📂 Repo](https://github.com/doruk-celik/linkedin-bot) |
+| 🏢 **HR Analytics Employee Attrition** | **EN:** End-to-end ML application predicting employee churn risks and identifying key organizational turnover drivers.<br>**TR:** Şirket içi çalışan ayrılma (attrition) risklerini tahmin eden ve kök nedenleri analiz eden uçtan uca ML projesi. | `Python` `Scikit-Learn` `XGBoost` | [📂 Repo](https://github.com/doruk-celik/HR-Analytics-Employee-Attrition-Prediction) |
+| 🧠 **Mental Health & Digital Habits Analysis** | **EN:** Multi-dataset exploratory analysis exploring relationships between digital habits, workplace burnout, and mental health.<br>**TR:** Dijital alışkanlıklar, tükenmişlik ve ruh sağlığı arasındaki ilişkileri inceleyen çoklu veri seti EDA çalışması. | `Pandas` `Seaborn` `EDA` `Machine Learning` | [📂 Repo](https://github.com/doruk-celik/Mental-Health-Digital-Habits-Analysis) |
+| 🎬 **Akbank GenAI Recommender Chatbot** | **EN:** RAG-based interactive movie recommendation chatbot developed for Akbank & Global AI Hub Bootcamp.<br>**TR:** Akbank & Global AI Hub Generative AI Bootcamp için geliştirilen RAG tabanlı film öneri chatbot'u. | `Python` `GenAI` `RAG` `LLM` | [📂 Repo](https://github.com/doruk-celik/akbank-gaih-chatbot) |
 
 ---
 
@@ -79,7 +79,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cdoruk248-cmyk&theme=tokyonight&hide_border=true&area=true" alt="GitHub Activity Graph" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=doruk-celik&theme=tokyonight&hide_border=true&area=true" alt="GitHub Activity Graph" width="95%" />
 
 </div>
 
